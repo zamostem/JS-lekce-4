@@ -14,5 +14,4 @@ if(age >= 65) {
     document.body.innerHTML = `nízký věk`
 }
 
-// cvičení 2
 
