@@ -2,8 +2,8 @@
 
 const vekUzivatele = prompt("Zadejte věk:");
 const plnaCena = 12;
+let cena = 0;
 
-const cena = "";
 if (vekUzivatele < 6) {
   cena = 0;
 } else if (vekUzivatele >= 6) {
@@ -14,4 +14,4 @@ if (vekUzivatele < 6) {
   cena = Math.round(0.5 * plnaCena);
 }
 
-document.body.innerHTML = `<p>Cena vstupenky je ${cena} €.`
+document.body.innerHTML = `<p>Cena vstupenky je ${cena} €.</p>`
